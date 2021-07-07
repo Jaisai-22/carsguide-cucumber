@@ -1,0 +1,1194 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17766797300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Search the buy car with model",
+        "description": "",
+        "id": "search-functionality;search-the-buy-car-with-model;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1067465500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 785735800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "CarBuyTest.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 321364600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I mouse hover on “buy+sell” tab",
+            "match": {
+              "location": "CarBuyTest.iMouseHoverOnBuySellTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4240300400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Search Cars",
+            "match": {
+              "location": "CarBuyTest.iClickSearchCars()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194665100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to new and used car search page",
+            "match": {
+              "location": "CarBuyTest.iNavigateToNewAndUsedCarSearchPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1433753400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select make \"Honda\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Honda",
+                  "offset": 15
+                }
+              ],
+              "location": "CarBuyTest.iSelectMake(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1429904600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select model \"City\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "City",
+                  "offset": 16
+                }
+              ],
+              "location": "CarBuyTest.iSelectModel(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1488198600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select location \"NSW - Central Coast\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NSW - Central Coast",
+                  "offset": 19
+                }
+              ],
+              "location": "CarBuyTest.iSelectLocation(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 954624700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select price \"$90,000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$90,000",
+                  "offset": 16
+                }
+              ],
+              "location": "CarBuyTest.iSelectPrice(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25030659400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Find My Next Car tab",
+            "match": {
+              "location": "CarBuyTest.iClickOnFindMyNextCarTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68886200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see the make \"Honda\" in results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Honda",
+                  "offset": 23
+                }
+              ],
+              "location": "CarBuyTest.iShouldSeeTheMakeInResults(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9368418100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Search the buy car with model",
+        "description": "",
+        "id": "search-functionality;search-the-buy-car-with-model;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1060055900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "CarBuyTest.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1518004400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I mouse hover on “buy+sell” tab",
+            "match": {
+              "location": "CarBuyTest.iMouseHoverOnBuySellTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4188611800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Search Cars",
+            "match": {
+              "location": "CarBuyTest.iClickSearchCars()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76021000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to new and used car search page",
+            "match": {
+              "location": "CarBuyTest.iNavigateToNewAndUsedCarSearchPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1427381900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select make \"Mazda\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mazda",
+                  "offset": 15
+                }
+              ],
+              "location": "CarBuyTest.iSelectMake(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1451039800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select model \"BT-50\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BT-50",
+                  "offset": 16
+                }
+              ],
+              "location": "CarBuyTest.iSelectModel(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1460229200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select location \"NSW - New England\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NSW - New England",
+                  "offset": 19
+                }
+              ],
+              "location": "CarBuyTest.iSelectLocation(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 889049900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select price \"$60,000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$60,000",
+                  "offset": 16
+                }
+              ],
+              "location": "CarBuyTest.iSelectPrice(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29006128000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Find My Next Car tab",
+            "match": {
+              "location": "CarBuyTest.iClickOnFindMyNextCarTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84804500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see the make \"Mazda\" in results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mazda",
+                  "offset": 23
+                }
+              ],
+              "location": "CarBuyTest.iShouldSeeTheMakeInResults(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10330378600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Search the buy car with model",
+        "description": "",
+        "id": "search-functionality;search-the-buy-car-with-model;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1116454200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "CarBuyTest.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 345936000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I mouse hover on “buy+sell” tab",
+            "match": {
+              "location": "CarBuyTest.iMouseHoverOnBuySellTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4049892100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Search Cars",
+            "match": {
+              "location": "CarBuyTest.iClickSearchCars()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108713600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to new and used car search page",
+            "match": {
+              "location": "CarBuyTest.iNavigateToNewAndUsedCarSearchPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1418099300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select make \"Hyundai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hyundai",
+                  "offset": 15
+                }
+              ],
+              "location": "CarBuyTest.iSelectMake(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1402934000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select model \"Elantra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Elantra",
+                  "offset": 16
+                }
+              ],
+              "location": "CarBuyTest.iSelectModel(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1677137800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select location \"NT - North\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NT - North",
+                  "offset": 19
+                }
+              ],
+              "location": "CarBuyTest.iSelectLocation(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 861851900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select price \"$80,000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$80,000",
+                  "offset": 16
+                }
+              ],
+              "location": "CarBuyTest.iSelectPrice(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23336783500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Find My Next Car tab",
+            "match": {
+              "location": "CarBuyTest.iClickOnFindMyNextCarTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97242800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see the make \"Hyundai\" in results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hyundai",
+                  "offset": 23
+                }
+              ],
+              "location": "CarBuyTest.iShouldSeeTheMakeInResults(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10276514800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Search the buy car with model",
+        "description": "",
+        "id": "search-functionality;search-the-buy-car-with-model;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1061477200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "CarBuyTest.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 311008800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I mouse hover on “buy+sell” tab",
+            "match": {
+              "location": "CarBuyTest.iMouseHoverOnBuySellTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3176561700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Search Cars",
+            "match": {
+              "location": "CarBuyTest.iClickSearchCars()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241830100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to new and used car search page",
+            "match": {
+              "location": "CarBuyTest.iNavigateToNewAndUsedCarSearchPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1382899900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select make \"Kia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kia",
+                  "offset": 15
+                }
+              ],
+              "location": "CarBuyTest.iSelectMake(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1407275000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select model \"Picanto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Picanto",
+                  "offset": 16
+                }
+              ],
+              "location": "CarBuyTest.iSelectModel(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1406322800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select location \"NSW - Sydney\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NSW - Sydney",
+                  "offset": 19
+                }
+              ],
+              "location": "CarBuyTest.iSelectLocation(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1005011100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select price \"$90,000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$90,000",
+                  "offset": 16
+                }
+              ],
+              "location": "CarBuyTest.iSelectPrice(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23488230500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Find My Next Car tab",
+            "match": {
+              "location": "CarBuyTest.iClickOnFindMyNextCarTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59926200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see the make \"Kia\" in results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kia",
+                  "offset": 23
+                }
+              ],
+              "location": "CarBuyTest.iShouldSeeTheMakeInResults(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9889686700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Search the buy car with model",
+        "description": "",
+        "id": "search-functionality;search-the-buy-car-with-model;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1048290100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 43200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "CarBuyTest.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 311943000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I mouse hover on “buy+sell” tab",
+            "match": {
+              "location": "CarBuyTest.iMouseHoverOnBuySellTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3802238900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Search Cars",
+            "match": {
+              "location": "CarBuyTest.iClickSearchCars()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80861600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to new and used car search page",
+            "match": {
+              "location": "CarBuyTest.iNavigateToNewAndUsedCarSearchPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1417298100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select make \"Mercedes-Benz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mercedes-Benz",
+                  "offset": 15
+                }
+              ],
+              "location": "CarBuyTest.iSelectMake(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1418842300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select model \"A-Class\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A-Class",
+                  "offset": 16
+                }
+              ],
+              "location": "CarBuyTest.iSelectModel(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1456688300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select location \"NSW - All\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NSW - All",
+                  "offset": 19
+                }
+              ],
+              "location": "CarBuyTest.iSelectLocation(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 986012300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select price \"$150,000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$150,000",
+                  "offset": 16
+                }
+              ],
+              "location": "CarBuyTest.iSelectPrice(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26046105300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Find My Next Car tab",
+            "match": {
+              "location": "CarBuyTest.iClickOnFindMyNextCarTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63770400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see the make \"Mercedes-Benz\" in results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mercedes-Benz",
+                  "offset": 23
+                }
+              ],
+              "location": "CarBuyTest.iShouldSeeTheMakeInResults(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9825815300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Search the buy car with model",
+        "description": "",
+        "id": "search-functionality;search-the-buy-car-with-model;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1038783500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "CarBuyTest.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 290989600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I mouse hover on “buy+sell” tab",
+            "match": {
+              "location": "CarBuyTest.iMouseHoverOnBuySellTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3718897600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Search Cars",
+            "match": {
+              "location": "CarBuyTest.iClickSearchCars()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77582100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to new and used car search page",
+            "match": {
+              "location": "CarBuyTest.iNavigateToNewAndUsedCarSearchPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1362437900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select make \"Ford\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ford",
+                  "offset": 15
+                }
+              ],
+              "location": "CarBuyTest.iSelectMake(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1427580800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select model \"Focus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Focus",
+                  "offset": 16
+                }
+              ],
+              "location": "CarBuyTest.iSelectModel(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1507891600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select location \"NSW - New England\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NSW - New England",
+                  "offset": 19
+                }
+              ],
+              "location": "CarBuyTest.iSelectLocation(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 922783100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select price \"$70,000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$70,000",
+                  "offset": 16
+                }
+              ],
+              "location": "CarBuyTest.iSelectPrice(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26681355900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Find My Next Car tab",
+            "match": {
+              "location": "CarBuyTest.iClickOnFindMyNextCarTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79243600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see the make \"Ford\" in results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ford",
+                  "offset": 23
+                }
+              ],
+              "location": "CarBuyTest.iShouldSeeTheMakeInResults(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Functionality",
+    "description": "",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefiles/buy.feature"
+  }
+]
